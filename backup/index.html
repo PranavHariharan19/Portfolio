@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Hariharan | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Pranav Hariharan, an AI & Data Science undergraduate at IIIT Kottayam.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-fx">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-padding">
+            <div class="container hero-content">
+                <p class="greeting">Hello, I am</p>
+                <h1 class="name">Pranav Hariharan</h1>
+                <h2 class="tagline">Full Stack Developer and ML enthusiast</h2>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding fade-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content glass-card">
+                    <p>
+                        I’m an AI & Data Science undergraduate at IIIT Kottayam focused on building impactful software products that combine intelligent systems with polished user experiences. My work spans machine learning pipelines, full-stack web platforms, voice interfaces, civic-tech applications, and real-time collaborative systems.
+                    </p>
+                    <p>
+                        I enjoy solving practical problems through clean architecture, scalable systems, and deployable products rather than just prototypes. I’m especially interested in AI agents, intelligent automation, developer tooling, and human-centered software experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-padding fade-in">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Expected Graduation: May 2028</div>
+                        <h3 class="timeline-title">Indian Institute of Information Technology Kottayam</h3>
+                        <h4 class="timeline-subtitle">B.Tech — Computer Science & Engineering (AI & Data Science)</h4>
+                        <p class="timeline-detail">CGPA: <strong>9.76</strong></p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Graduated: April 2024</div>
+                        <h3 class="timeline-title">The PSBB Millennium School</h3>
+                        <h4 class="timeline-subtitle">AISSCE</h4>
+                        <p class="timeline-detail">Score: <strong>97.8%</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-padding fade-in">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-card glass-card">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="role">Java Developer Intern</h3>
+                            <h4 class="company">Elevate Labs</h4>
+                        </div>
+                        <div class="duration">Jun 2025 – Jul 2025</div>
+                    </div>
+                    <div class="exp-body">
+                        <h5>Responsibilities & Achievements</h5>
+                        <ul>
+                            <li>Built an end-to-end college admission management system in Java.</li>
+                            <li>Automated seat allocation across multiple courses and reservation categories using a merit-ranking algorithm.</li>
+                            <li>Designed backend modules for: Application processing, Eligibility verification, and Admission status tracking.</li>
+                            <li>Enforced modular architecture with Git-based version control.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding fade-in">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <!-- AuditFlow -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">AuditFlow</h3>
+                                <a href="https://auditflow-alpha.vercel.app/" class="btn-live">Live</a>
+                            </div>
+                            <p class="project-subtitle">Intelligent Bill Extraction Platform</p>
+                            <p class="project-desc">Eliminates manual data entry for auditors by automatically extracting key financial fields — vendor, GST, bill number, date, and totals — from scanned invoices and bill images.</p>
+                            <ul class="project-highlights">
+                                <li>Automated invoice data extraction</li>
+                                <li>AI-powered OCR workflow</li>
+                                <li>One-click Excel export</li>
+                                <li>Reduced invoice processing time from minutes to seconds</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span>HTML</span><span>JavaScript</span><span>Groq API</span><span>Vercel</span>
+                                </div>
+                                <a href="https://github.com/PranavHariharan19/Auditflow" class="btn-repo">Visit Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Voice Assistant -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Voice Assistant</h3>
+                                <a href="https://voice-assistant-sand-three.vercel.app/" class="btn-live">Live</a>
+                            </div>
+                            <p class="project-subtitle">Voice-Powered Scheduling System</p>
+                            <p class="project-desc">Built to eliminate the friction of opening a calendar app mid-task by allowing users to schedule, reschedule, and delete events entirely through voice interaction.</p>
+                            <ul class="project-highlights">
+                                <li>Natural language calendar management</li>
+                                <li>Speech-to-intent AI pipeline</li>
+                                <li>Fully screenless interaction loop</li>
+                                <li>Voice confirmations using synthesized speech</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span>Next.js</span><span>Web Speech API</span><span>Gemini API</span><span>Supabase</span>
+                                </div>
+                                <a href="https://github.com/PranavHariharan19/Voice-Assistant" class="btn-repo">Visit Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Learnmate Vidya -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Learnmate Vidya</h3>
+                            <p class="project-subtitle">Adaptive Learning Intelligence Platform</p>
+                            <p class="project-desc">Adaptive learning platform featuring collaborative sessions, quizzes, whiteboards, and behavioral analytics.</p>
+                            <ul class="project-highlights">
+                                <li>Real-time collaborative learning</li>
+                                <li>Student behavioral metrics engine</li>
+                                <li>Automated SWOT analysis</li>
+                                <li>Personalized recommendation system</li>
+                                <li>Logged 5+ interaction types</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span>React</span><span>Node.js</span><span>Firebase</span>
+                                </div>
+                                <a href="https://github.com/venkatayaswanth-IIITan/Learnmate-Vidya" class="btn-repo">Visit Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CLIMORAE -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <h3 class="project-title">CLIMORAE</h3>
+                            <p class="project-subtitle">Climate Resilience Web Platform</p>
+                            <p class="project-desc">Climate-focused civic platform combining real-time analytics, gamification, AI assistance, and public engagement tools.</p>
+                            <ul class="project-highlights">
+                                <li>Interactive climate analytics dashboard</li>
+                                <li>Real-time weather API integration</li>
+                                <li>AI chatbot for climate & agriculture</li>
+                                <li>Civic event coordination portal</li>
+                                <li>Gamified learning system</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+                                </div>
+                                <a href="https://github.com/a6hinandh/Climate_Resilience" class="btn-repo">Visit Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Civic Report -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Civic Report</h3>
+                            <p class="project-subtitle">Civic Issue Reporting App</p>
+                            <p class="project-desc">Cross-platform civic reporting application enabling citizens to report public issues with media uploads and geo-visualization.</p>
+                            <ul class="project-highlights">
+                                <li>Dual-interface mobile application</li>
+                                <li>Heatmap-based issue density visualization</li>
+                                <li>Complaint management dashboard</li>
+                                <li>Upvotes, comments, and media uploads</li>
+                                <li>Geographic clustering for issue tracking</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-stack">
+                                    <span>Flutter</span><span>Firebase</span><span>Supabase</span>
+                                </div>
+                                <a href="https://github.com/PranavHariharan19/CivicReport" class="btn-repo">Visit Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding fade-in">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Python</span><span>Java</span><span>C</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>AI / ML</h3>
+                        <div class="skill-tags">
+                            <span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>MLflow</span><span>Prefect</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>Data Science</h3>
+                        <div class="skill-tags">
+                            <span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>Frameworks & Tools</h3>
+                        <div class="skill-tags">
+                            <span>React</span><span>Next.js</span><span>Flutter</span><span>Node.js</span><span>Git</span><span>Google Cloud Platform</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3>Databases</h3>
+                        <div class="skill-tags">
+                            <span>Firebase</span><span>PostgreSQL</span><span>MySQL</span><span>Supabase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Source & Certifications -->
+        <section id="achievements" class="achievements section-padding fade-in">
+            <div class="container">
+                <div class="split-grid">
+                    <div class="achievements-col">
+                        <h2 class="section-title">Open Source & Achievements</h2>
+                        <div class="glass-card">
+                            <h3 class="item-title">GirlScript Summer of Code Contributor — 2026</h3>
+                            
+                            <div class="sub-item mt-3">
+                                <h4>Open Source Track</h4>
+                                <p>Selected contributor for GsSOC 2026 in the Open Source Track.</p>
+                            </div>
+                            
+                            <div class="sub-item mt-3">
+                                <h4>AI Agents Track</h4>
+                                <p>Selected contributor for GsSOC 2026 in the AI Agents Track.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certifications-col">
+                        <h2 class="section-title">Certifications</h2>
+                        <div class="glass-card">
+                            <h3 class="item-title">Data Science with Python — Finlatics</h3>
+                            <p class="mt-2">Hands-on exploratory data analysis using:</p>
+                            <ul class="cert-list">
+                                <li>NumPy</li>
+                                <li>Pandas</li>
+                                <li>Matplotlib</li>
+                                <li>Seaborn</li>
+                            </ul>
+                            <p class="mt-2"><em>Worked with real-world datasets</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding fade-in">
+            <div class="container">
+                <div class="contact-box glass-card text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="contact-links mt-4">
+                        <a href="mailto:pranavhariharanofficial@gmail.com" class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            pranavhariharanofficial@gmail.com
+                        </a>
+                        <div class="social-links mt-3">
+                            <a href="https://www.linkedin.com/in/pranav-hariharan-4202a9320/" class="social-icon" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/PranavHariharan19" class="social-icon" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Pranav Hariharan. Designed with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
